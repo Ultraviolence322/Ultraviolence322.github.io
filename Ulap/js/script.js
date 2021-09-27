@@ -15,7 +15,7 @@ $(document).ready(function() {
 		$('.header__connect').fadeIn();
 		$('body').css('overflow','hidden')
 	})
-	$('.form-close, button').click(function(){
+	$('.form-close').click(function(){
 		$('.header__connect').fadeOut();
 		$('body').css('overflow','auto ')
 	})
